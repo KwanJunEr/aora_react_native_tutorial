@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "expo_go_react_native_tutorial",
+    "slug": "expo_go_react_native_tutorial"
+  }
+}
