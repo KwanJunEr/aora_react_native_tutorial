@@ -11,6 +11,10 @@ const SignIn = () => {
     email: "",
     password: "",
   });
+  const[isSubmitting, setIsSubmitting] = useState(false)
+  const submit = () =>{
+
+  }
   return (
     <SafeAreaView className="bg-primary h-full">
       <ScrollView>
@@ -38,7 +42,10 @@ const SignIn = () => {
             otherStyles="mt-7"
           />
           <CustomButton
-          
+            title = "Sign In"
+            handlePress = {submit}  
+            containerStyles = "mt-7"
+            isLoading = {isSubmitting}
           />
         </View>
       </ScrollView>
