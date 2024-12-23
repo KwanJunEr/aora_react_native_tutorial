@@ -14,5 +14,5 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "nativewind-env.d.ts"
-, "constants/images.js", "constants/icons.js", "constants/index.js", "context/GlobalProvider.js", "app/(tabs)/profile.jsx", "app/(tabs)/home.jsx", "components/Trending.jsx", "components/VideoCard.jsx"  ]
+, "constants/images.js", "constants/icons.js", "constants/index.js", "context/GlobalProvider.js", "app/(tabs)/profile.jsx", "app/(tabs)/home.jsx", "components/Trending.jsx", "components/VideoCard.jsx", "app/search/[query].jsx"  ]
 }
