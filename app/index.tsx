@@ -34,7 +34,7 @@ export default function Index() {
             source={images.path}
             className="w-[136px] h-[15px] "
             resizeMode="contain"
-          />{" "}
+          /><Text>{" "}</Text>
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
             Where creativity meets innovation: embark on a journey of limitless
             exploration with Aora
